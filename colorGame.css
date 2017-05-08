@@ -1,0 +1,106 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    min-width: 375px;
+}
+
+button {
+    border: none;
+    background: none;
+    color: #57a6cb;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    height: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    
+}
+
+button:hover {
+    color: white;
+    background: #57a6cb;
+}
+
+button:focus {
+    outline: none;
+}
+
+h1 {
+    background-color: #57a6cb;
+    color: white;
+    line-height: 1.333;
+    font-family: 'Montserrat', 'Avenir', sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+p {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.selected {
+    color: white;
+    background: #57a6cb;
+}
+
+.square {
+    background: purple;
+    border-radius: 10px;
+    float: left;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    width: 30%;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+#gameControlStripe {
+    background-color: white;
+    color: black;
+    height: 30px;
+    text-align: center;
+}
+
+#gameSettingsBar {
+    background-color: #bfbfbf;
+    float: left;
+    padding: 5px;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    min-width: 100px;
+}
+
+#pickedColorDisplay {
+    font-size: 2em;
+}
+
+#square-container {
+    margin: 25px auto;
+    width: 60%
+}
+
