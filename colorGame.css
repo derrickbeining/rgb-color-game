@@ -34,7 +34,7 @@ h1 {
     color: white;
     line-height: 1.333;
     font-family: 'Montserrat', 'Avenir', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: lighter;
     margin: 0;
     padding: 40px 0;
@@ -101,6 +101,7 @@ p {
 
 #square-container {
     margin: 25px auto;
-    width: 60%
+    max-width: 600px;
+    width: 80%
 }
 
