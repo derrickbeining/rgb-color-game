@@ -19,7 +19,6 @@ html * {
 body {
     background-color: #232323;
     margin: 0;
-    min-width: 375px;
 }
 
 button {
@@ -31,10 +30,10 @@ button {
     height: 100%;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    
+    transition: all 0.3s;
+    width: 15%;;
 }
 
 @media all screen and (min-width: 768px) {
@@ -101,17 +100,17 @@ p {
     text-align: center;
 }
 
+/*
 #gameSettingsBar {
     background-color: #bfbfbf;
-    float: left;
     padding: 5px;
 }
+*/
 
 #message {
     display: inline-block;
     font-size: 0.8rem;
-    width: 15%;
-    min-width: 100px;
+
 }
 
 #pickedColorDisplay {
