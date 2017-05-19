@@ -1,6 +1,6 @@
 html {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.4;
 }
 
@@ -12,7 +12,7 @@ html * {
 
 @media all screen and (min-width: 768px) {
     html {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
@@ -35,6 +35,12 @@ button {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     
+}
+
+@media all screen and (min-width: 768px) {
+    button {
+        font-size: 0.8px;
+    }
 }
 
 button:hover {
